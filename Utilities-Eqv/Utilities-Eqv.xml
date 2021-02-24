@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Utilities-Eqv</name>
+    </assembly>
+    <members>
+        <member name="M:Utilities_Eqv.Controllers.UploadFileController.Post(Utilities_Eqv.Model.Request.UploadDataRequest)">
+            <summary>
+            Obtiene el ruta, nombre, archivo para carga en Azure Storage.
+            </summary>
+            <param name="uploadDataRequest">Objeto De Carga de Datos</param>
+            <returns>Objeto UploadData</returns>
+        </member>
+        <member name="T:Utilities_Eqv.Model.Request.UploadDataRequest">
+            <summary>
+            Datos del Archivo a Cargar
+            </summary>
+        </member>
+        <member name="P:Utilities_Eqv.Model.Response.UploadData.Url">
+            <summary>
+            Url del Archivo Cargado
+            </summary>
+        </member>
+        <member name="P:Utilities_Eqv.Model.Response.UploadData.Status">
+            <summary>
+            Status del proceso
+            </summary>
+        </member>
+        <member name="P:Utilities_Eqv.Model.Response.UploadData.Message">
+            <summary>
+            Mensaje del proceso
+            </summary>
+        </member>
+    </members>
+</doc>
